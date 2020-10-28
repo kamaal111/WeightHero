@@ -85,9 +85,8 @@
 		600A5BA72549E6530062A91E = {
 			isa = PBXGroup;
 			children = (
+				600A5BF6254A02640062A91E /* Tests */,
 				600A5BB22549E6530062A91E /* WeightHero */,
-				600A5BCC2549E6560062A91E /* WeightHeroTests */,
-				600A5BD72549E6560062A91E /* WeightHeroUITests */,
 				600A5BB12549E6530062A91E /* Products */,
 				600A5BF02549E9900062A91E /* Frameworks */,
 			);
@@ -151,6 +150,15 @@
 				600A5BF12549E9900062A91E /* HealthKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		600A5BF6254A02640062A91E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				600A5BD72549E6560062A91E /* WeightHeroUITests */,
+				600A5BCC2549E6560062A91E /* WeightHeroTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,7 +510,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXUKH9VF73;
-				INFOPLIST_FILE = WeightHeroTests/Info.plist;
+				INFOPLIST_FILE = Tests/WeightHeroTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,7 +532,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXUKH9VF73;
-				INFOPLIST_FILE = WeightHeroTests/Info.plist;
+				INFOPLIST_FILE = Tests/WeightHeroTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -545,7 +553,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXUKH9VF73;
-				INFOPLIST_FILE = WeightHeroUITests/Info.plist;
+				INFOPLIST_FILE = Tests/WeightHeroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,7 +573,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXUKH9VF73;
-				INFOPLIST_FILE = WeightHeroUITests/Info.plist;
+				INFOPLIST_FILE = Tests/WeightHeroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
